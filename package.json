@@ -1,0 +1,25 @@
+{
+    "name": "contact-list-ts-api",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "repository": "https://github.com/dominiczaq/contact-list-ts-api",
+    "author": "Grzegorz Dominiczak",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.29.0",
+        "@typescript-eslint/parser": "^4.29.0",
+        "@vercel/node": "^1.12.0",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^3.4.0",
+        "husky": ">=6",
+        "lint-staged": ">=10",
+        "prettier": "^2.3.2",
+        "typescript": "^4.3.5"
+    },
+    "scripts": {
+        "checkTS": "tsc -p tsconfig.json",
+        "prepare": "husky install"
+    }
+}
